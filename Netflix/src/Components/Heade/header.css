@@ -1,4 +1,6 @@
 /* Header styles (already provided) */
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
 .header-outer-contianer {
   width: 100%;
   position: sticky;

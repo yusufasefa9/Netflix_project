@@ -1,8 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import "./footer.css";
+
 const Footer = () => {
   return (
     <div className="footer-outer-container">
@@ -18,7 +20,9 @@ const Footer = () => {
               <li>Audio and Subtitles</li>
               <li>Media Center</li>
               <li>Privacy</li>
-              <li>Contact Us</li>
+              <li>
+                <Link to="/contact">Contact Us</Link>
+              </li>
             </ul>
           </div>
           <div className="footer-right">
@@ -32,14 +36,16 @@ const Footer = () => {
             <ul>
               <li>Help center</li>
               <li>Terms of use</li>
-              <li>corporate information</li>
+              <li>Corporate information</li>
             </ul>
           </div>
           <div>
             <ul>
               <li>Media Center</li>
               <li>Privacy</li>
-              <li>Contact Us</li>
+              <li>
+                <Link to="/contact">Contact Us</Link>
+              </li>
             </ul>
           </div>
         </div>

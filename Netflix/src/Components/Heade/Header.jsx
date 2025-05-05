@@ -5,6 +5,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import PermIdentityIcon from "@mui/icons-material/PermIdentity";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+import { CarouselSection } from "../../Components/movies/Carousel";
 
 const Header = () => {
   return (
@@ -46,6 +47,7 @@ const Header = () => {
           </div>
         </div>
       </div>
+      <CarouselSection />
     </>
   );
 };

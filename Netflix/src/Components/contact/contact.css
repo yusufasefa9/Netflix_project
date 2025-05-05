@@ -1,0 +1,45 @@
+.contact-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-container h1 {
+  margin-bottom: 20px;
+}
+
+.contact-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-container form div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.contact-container form label {
+  margin-bottom: 5px;
+}
+
+.contact-container form input,
+.contact-container form textarea {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.contact-container form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-container form button:hover {
+  background-color: #f40612;
+}

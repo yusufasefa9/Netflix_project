@@ -1,0 +1,62 @@
+/* Background for the carousel */
+.carousel-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Section containing the carousel */
+.carousel-section {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Category title styling */
+.category-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Individual carousel item */
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Image styling */
+.carousel-image {
+  max-width: 100%;
+  height: 30px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Video styling */
+.carousel-video {
+  max-width: 100%;
+  height: 40px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Dots for the slider */
+.slick-dots li button:before {
+  color: white;
+}
+
+.slick-dots li.slick-active button:before {
+  color: red;
+}
+
+/* Arrows for the slider */
+.slick-prev:before,
+.slick-next:before {
+  color: white;
+}
